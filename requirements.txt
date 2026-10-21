@@ -1,0 +1,40 @@
+# Core dependencies
+torch==2.0.0
+pytorch-cuda==11.8  # Update based on your CUDA version
+
+# Data processing
+numpy==1.24.3
+pandas==2.0.2
+scikit-learn==1.2.2
+scipy==1.10.1
+
+# Financial data
+yfinance==0.2.28
+pandas-datareader==0.10.0
+
+# Visualization
+matplotlib==3.7.1
+seaborn==0.12.2
+plotly==5.14.0
+
+# Statistics and ML
+statsmodels==0.14.0
+hmmlearn==0.3.0
+
+# Utilities
+tqdm==4.65.0
+pyyaml==6.0
+loguru==0.7.0
+
+# Optional: for distributed training
+lightning==2.0.0  # PyTorch Lightning for training
+
+# Optional: for hyperparameter tuning
+optuna==3.12.0
+wandb==0.14.0  # Weights & Biases for experiment tracking
+
+# Development
+jupyter==1.0.0
+ipython==8.12.0
+black==23.3.0
+flake8==6.0.0
